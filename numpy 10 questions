@@ -1,0 +1,37 @@
+Q.1. Write a Numpy program to concatenate element-wise two array of string.
+ans.1. import numpy as np
+x1=NP.array(['c','programming'],dtype=np.str)
+x2=NP.array(['python','programming'],dtype=np.str)
+print("array 1:")
+print(x1)
+print("array 2:")
+print(x2)
+
+new_array=np.char.add(x1,x2)
+print("new array:")
+print(new_array)
+
+Q.2. write a numpy program to repeat all the elements three times of a given array of string.
+ans.2. import numpy as np
+x1=NP.array(['python','programming'],dtype=np.str)
+print("original array:")
+print(x1)
+new_array=np.char.multiply(x1,3)
+print("new_array:")
+print(new_array)
+
+Q.3. write a numpy program to capitilize the first letter,lowercase,uppercase,swapcase,title-case of all the elements ofa an array.
+import numpy as np
+x1=NP.array(['python','programming'],dtype=np.str)
+print("original array:")
+print(x1)
+capitilized_case=np.char.capitilized(x1)
+lowered_case=np.char.lowered(x1)
+uppered_case=np.char.uppered(x1)
+swapcased_case=np.char.swapcased(x1)
+titlecased_case=np.char.titlecased(x1)
+print("\n capitilized:",capitilized_case)
+print("lowered:",lowered_case)
+print("uppered:"uppered_case)
+print("swapcased:",swapcased_case)
+print("title cased:",title cased_case)
